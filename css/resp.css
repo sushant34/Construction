@@ -1,0 +1,137 @@
+@media(max-width: 992px){
+	.header-lowbar .nav-link{
+		padding: 13px 5%;
+		border-top: 1px solid #e4eaf3;
+		text-transform: uppercase;
+		pointer-events: none;
+	}
+	.dropdown:hover .dropdown-menu{ 
+        display: none;
+	}
+	
+  .nav-link .plus{
+     display: block;
+  	float: right;
+  }
+  
+  .dropdown-menu .dropdown-item{
+  	color: unset !important;
+  }
+  .dropdown-toggler:after{
+    content: none;
+  }
+
+}
+  
+ @media (max-width: 1500px) and (min-width: 1200px){
+.project-text-box {
+    padding: 25px;
+    padding-right: 25px;
+    width: calc(100% - 80px);
+}
+.counter-left{
+	padding-left: 270px;
+}
+.nav-item .c-btn{
+  padding: 15px;
+}
+
+}
+@media (max-width: 1200px) and (min-width: 992px)
+{
+.project-text-box {
+    padding: 40px;
+    padding-right: 20px;
+    width: calc(100% - 100px);
+}
+.counter-left{
+	padding-left: 100px;
+	width: 60%;
+}
+
+}
+@media (max-width: 992px) and (min-width: 767px)
+{
+.project-text-box {
+    width: calc(100% - 65px);
+}
+.contact-left {
+    margin-bottom: 148px;
+}
+.counter-left{
+	padding-left: 270px;
+	width: 60%;
+}
+.service-box-info p{
+   font-size: 12px;
+}
+
+}
+@media only screen and (max-width: 767px) and (min-width: 480px)
+{
+.project-text-box {
+    padding: 40px;
+}
+}
+
+@media (max-width: 767px){
+.project-text-box {
+    padding: 21px;
+    padding-right: 20px;
+    width: calc(100% - 25px);
+}
+.contact-left{
+	margin-bottom: 180px;
+}
+.counter-left {
+    min-height: 740px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+.testomonial-right {
+    width: 100%;
+    position: inherit;
+
+    
+}
+.testomonial-right:before{
+	content: "";
+	position: inherit;
+}
+.testomonial-right{
+	background: rgba(0,0,0,0.8);
+}
+
+}
+
+@media (max-width: 1800px) and (min-width: 1500px)
+{
+	.counter-left {
+    padding-left: 300px;
+}
+}
+
+
+@media(max-width: 1500px){
+  .carousel-caption{
+    top:20%;
+    width: 80%;
+  }
+  .carousel-caption h5{
+    font-size:14px;
+  }
+  .carousel-caption h1{
+    font-size: 40px;
+  }
+  .carousel-caption .c-btn{
+    padding: 10px;
+  }
+}
+ @media(max-width: 795px){
+  .carousel-caption{
+    top:15px;
+    width: 100%;
+  }
+ }
